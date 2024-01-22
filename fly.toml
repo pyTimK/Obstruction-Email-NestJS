@@ -1,9 +1,10 @@
-# fly.toml file generated for late-pond-5613 on 2023-01-02T10:05:09+08:00
+# fly.toml app configuration file generated for email-nestjs-server on 2024-01-22T00:51:14+08:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
 
-app = "late-pond-5613"
-kill_signal = "SIGINT"
-kill_timeout = 5
-processes = []
+app = "email-nestjs-server"
+primary_region = "ams"
 
 [env]
   PORT = "8080"
